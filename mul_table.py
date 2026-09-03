@@ -11,7 +11,7 @@ while True:
     print("~~~"*43)
 #main logic section:
     for i in range(1,(till+1)):
-        print(" "*30,mul_num,"x",i,"=",(mul_num*i))
+        print(" "*30,f"{mul_num} x {i} = {mul_num*i}")       
         print("---"*43)
     print("~~~"*43)
     again=input("Do you want to find table of any another number? (yes/no) : ".ljust(10))
