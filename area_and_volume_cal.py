@@ -120,7 +120,7 @@ while True:
     elif( shape_num==10 ):
         print("You enter shape is : ".ljust(5),Shapes[9])
         radius_5=float(input("Enter the radius in meters : ".ljust(30)))
-        area_10=3*3.142(radius_5**2)
+        area_10=3*3.142*(radius_5**2)
         vol_6=(2/3)*3.142*(radius_5**3)
         print(" "*4,f"The  Total surface area of {Shapes[9]} is {area_10} m*2")
         print(" "*4,f"The Volume of {Shapes[9]} is {vol_6} m*3")
@@ -152,7 +152,7 @@ while True:
        i_radius_3=float(input("Enter the inner radius in meters : ".ljust(30)))
        o_radius_3=float(input("Enter the outer radius in meters : ".ljust(30)))
        area_13=3.142*slant_height_2*((o_radius_3) + (i_radius_3))
-       vol_9=(1/3)*3.142*perpendicular_height_2((o_radius_2**2)-(i_radius_2**2))
+       vol_9=(1/3)*3.142*perpendicular_height_2*((o_radius_3**2)-(i_radius_3**2))
        print(" "*4,f"The  Total  curved surface area of {Shapes[12]} is {area_13} m*2")
        print(" "*4,f"The Volume of {Shapes[12]} is {vol_9} m*3")
           
